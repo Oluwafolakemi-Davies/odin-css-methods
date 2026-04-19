@@ -1,0 +1,22 @@
+.odd-item {
+    background-color: #ffcccc; /* Light red/pink */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* second element */
+#special-blue {
+    color: #0000ff; /* Blue */
+    font-size: 36px;
+}
+
+/*third element*/
+.small-header {
+    font-size: 24px;
+}
+
+/* fourth element */
+#green-bold {
+    background-color: #ccffcc; /* Light green */
+    font-size: 24px;
+    font-weight: bold;
+}
