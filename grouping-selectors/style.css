@@ -1,0 +1,17 @@
+/* Styles that BOTH elements share */
+.btn-base {
+    font-size: 28px;
+    /* Quotes are used for 'Times New Roman' because it has spaces */
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* first element */
+.btn-black {
+    background-color: #000000; /* Black */
+    color: #ffffff;            /* White */
+}
+
+/* second element */
+.btn-yellow {
+    background-color: #ffff00; /* Yellow */
+}
