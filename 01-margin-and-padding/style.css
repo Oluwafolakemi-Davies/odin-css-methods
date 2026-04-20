@@ -1,0 +1,25 @@
+.one {
+  background-color: pink;
+  border: 4px solid blue;
+  /* Add 32px between text and border */
+  padding: 32px;
+  /* Add 12px between this and any other element */
+  margin: 12px;
+}
+
+.two {
+  background-color: lightblue;
+  border: 4px solid purple;
+  /* Inherit the 12px margin from Div One to keep spacing consistent */
+  margin: 12px;
+}
+
+.three {
+  background-color: peachpuff;
+  border: 4px solid brown;
+  /* Add 32px between text and border */
+  padding: 32px;
+  /* 48px gap from Div Two (Top) and auto on the left to push it right */
+  margin: 48px 12px 12px auto;
+  width: 300px;
+}
