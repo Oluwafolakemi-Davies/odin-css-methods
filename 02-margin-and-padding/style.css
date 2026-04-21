@@ -1,0 +1,48 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  /* This creates the white "frame" around all the blue sections */
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+  font-size: 16px;
+  font-weight: bold;
+  /* Reset default h1 margins and add 8px to the bottom for the gap */
+  margin: 0 0 8px 0;
+  padding: 8px;
+}
+
+.content {
+  background: #e3f4ff;
+  font-size: 16px;
+  /* Create white gaps above and below the content section */
+  margin: 8px 0;
+  padding: 16px 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  /* Only need a gap on top here */
+  margin: 8px 0 0 0;
+  padding: 8px;
+  /* Centers the text "and a" */
+  text-align: center;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  /* Centers the button and gives it some breathing room */
+  display: block;
+  margin: 8px auto 0 auto;
+  padding: 8px 24px;
+  font-weight: bold;
+}
